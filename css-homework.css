@@ -1,0 +1,16 @@
+header nav ul {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about-page main {
+    text-align: center;
+}
