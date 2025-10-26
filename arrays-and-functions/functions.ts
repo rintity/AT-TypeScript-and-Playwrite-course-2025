@@ -48,3 +48,11 @@ substractNums();
 substractNums(50);
 substractNums(50, 30);
 
+// function with parameter of union type
+function printId (id: string | number){
+    console.log(`Id - ${id} is type of ${typeof id}`)
+}
+printId("#10");
+printId(10);
+
+
