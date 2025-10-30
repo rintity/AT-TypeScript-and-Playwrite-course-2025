@@ -59,7 +59,7 @@ console.log(displayCart(thirdCustomer));
 
 
 // add function filterByCategory - receive products and category as parameters and filter the products by given category 
-const allProducts: Product[] = [apple, tShirt, speaker, iron, headphones, jeans, cake, stawberry]
+const allProducts: Product[] = [apple, tShirt, speaker, iron, headphones, jeans, cake, strawberry]
 function filterByCategory(products: Product[], category: Category): Product[] {
     return products.filter((product) => product.category === category);
 }
